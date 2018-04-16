@@ -5,55 +5,149 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk"
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P"
-    crossorigin="anonymous">
+  <link async href="http://fonts.googleapis.com/css?family=Monoton|Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="decorations.css">
   <title>My Portfolio | Welcome!</title>
 </head>
 
 <body>
   <header>
     <div class="container">
-      <div id="my-name">
-        <h1>f0rsaken_c0der</h1>
+      <div id="branding">
+        <h1>
+          f0rsaken<span class="highlight">_c0der</span>
+        </h1>
       </div>
       <nav>
         <ul>
           <li>
-            <a href="#">Info</a>
+            <a href="#top">Info</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#mid">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#bot">Contact</a>
           </li>
         </ul>
+      </nav>
     </div>
-    </nav>
   </header>
-
+  
   <section id="info">
+    <a name="top">&nbsp;</a>
+    <h2>About me</h2>
+    <p class="horizontal-rule"></p>
     <div class="container">
-      <h1>About me</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec elit urna. Suspendisse a erat a nibh imperdiet fermentum.
+        In eleifend ultricies massa, id pretium purus convallis nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec elit urna. Suspendisse a erat a nibh imperdiet fermentum.
+        In eleifend ultricies massa, id pretium purus convallis nec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec elit urna. Suspendisse a erat a nibh imperdiet fermentum.
+        In eleifend ultricies massa, id pretium purus convallis nec.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec elit urna. Suspendisse a erat a nibh imperdiet fermentum.
         In eleifend ultricies massa, id pretium purus convallis nec.</p>
-      <img src="https://scontent.fskg1-1.fna.fbcdn.net/v/t1.0-9/22089308_530181633992918_924214441947025191_n.jpg?_nc_cat=0&oh=896e04c15c94729cbe14516169999109&oe=5B295904"
-        alt="My photo" />
+      <img src="https://i.imgur.com/XmiInFP.jpg" alt="My photo" />
     </div>
   </section>
+  
   <section id="portfolio">
+    <a name="mid">&nbsp;</a>
+    <h2>Portfolio</h2>
+    <p class="horizontal-rule"></p>
     <div class="container">
-
+      <div class="gallery">
+        <a href="https://codepen.io/f0rsakenc0der/full/pLrmBV/" target="_blank">
+          <img src="https://i.imgur.com/sVT13Hb.png" width="300px" height="200px" />
+        </a>
+        <div class="description">Coming Soon</div>
+      </div>
+      <div class="gallery">
+        <a href="javascript:void(0);" target="_blank">
+          <img src="https://res.cloudinary.com/f0rsakenc0der/image/upload/v1522777817/334554.jpg"  />
+        </a>
+        <div class="description ">Coming Soon</div>
+      </div>
+      <div class="gallery">
+        <a href="javascript:void(0);" target="_blank ">
+          <img src="https://res.cloudinary.com/f0rsakenc0der/image/upload/v1522777817/334554.jpg" width="300px " height="200px" />
+        </a>
+        <div class="description">Coming Soon</div>
+      </div>
+      <div class="gallery">
+        <a href="javascript:void(0);" target="_blank">
+          <img src="https://res.cloudinary.com/f0rsakenc0der/image/upload/v1522777817/334554.jpg" width="300px" height="200px" />
+        </a>
+        <div class="description">Coming Soon</div>
+      </div>
+      <div class="gallery">
+        <a href="javascript:void(0);" target="_blank">
+          <img src="https://res.cloudinary.com/f0rsakenc0der/image/upload/v1522777817/334554.jpg" width="300px" height="200px" />
+        </a>
+        <div class="description">Coming Soon</div>
+      </div>
+      <div class="gallery">
+        <a href="javascript:void(0);" target="_blank">
+          <img src="https://res.cloudinary.com/f0rsakenc0der/image/upload/v1522777817/334554.jpg" width="300px" height="200px" />
+        </a>
+        <div class="description">Coming Soon</div>
+      </div>
     </div>
   </section>
   <section id="contact">
-    <div class="container">
+    <a name="bot">&nbsp;</a>
+    <h2>Contact me</h2>
+    <p class="horizontal-rule"></p>
+    <div class="container">  
+      <form class="quote">
+        <label for="fname">First Name</label>
+        <br>
+        <input type="text" name="firstname " id="fname" placeholder="First name">
+        <br>
 
+        <label for="lname">Last Name</label>
+        <br>
+        <input type="text" name="lastname" id="lname" placeholder="Last name">
+        <br>
+
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <br>
+
+        <label for="subject">Subject</label>
+        <br>
+        <textarea name="subject" placeholder="Write something..." style="height:170px"></textarea>
+        <br>
+        <button type="submit" class="button_1" onclick='return false'>Submit</button>
+      </form>
+      
+      <aside id="sidebar">
+        <h3>The Void</h3>
+        <p>Screaming into existence with the birth of the universe, the Void is a manifestation of the unknowable nothingness
+          that lies beyond. It is a force of insatiable hunger, waiting through the eons until its masters, the mysterious
+          Watchers, mark the final time of undoing. </p>
+      </aside>
     </div>
   </section>
+  <footer>
+    <div class="container">
+      <div class="social-media">
+        <p>Follow me on</p>
+
+        <a href="https://www.instagram.com/f0rsaken_thr0ne/" alt="My instagram" target="_blank" tabindex=""><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/f0rsaken_c0der" alt="My tWitter" target="_blank" tabindex=""><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/f0rsakenc0der" alt="My github" target="_blank" tabindex=""><i class="fab fa-github"></i></a>
+        <a href="https://medium.com/@f0rsakengam3r" alt="My medium" target="_blank" tabindex=""><i class="fab fa-medium"></i></a>
+        <a href="https://www.freecodecamp.org/f0rsakenc0der" alt="My Free code camp" target="_blank" tabindex=""><i class="fab fa-free-code-camp"></i></a>
+        <a href="https://codepen.io/f0rsakenc0der/" alt="My codepen" target="_blank" tabindex=""><i class="fab fa-codepen"></i></a>
+      </div>
+      <p class="horizontal-rule"></p>
+      <p>Created by George M.&copy</p>
+    </div>
+  </footer>
 </body>
 
 </html>
